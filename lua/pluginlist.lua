@@ -36,13 +36,13 @@ return {
 
   {
     'nvim-treesitter/nvim-treesitter',
-    build = ':TSUpdate',
   },
 
 
   {
     'nvim-telescope/telescope.nvim',
-    dependencies = { 'nvim-lua/plenary.nvim' }
+    dependencies = { 'nvim-lua/plenary.nvim' },
+    event = "VeryLazy"
   },
 
   {
@@ -65,6 +65,13 @@ return {
   {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
+  },
+  {
+    "windwp/nvim-ts-autotag",
+    event = "VeryLazy",
+    init = function()
+      require("nvim-ts-autotag").setup()
+    end
   }
 
 }

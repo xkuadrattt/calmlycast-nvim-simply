@@ -15,6 +15,7 @@
   "nvim-fzf": { "branch": "master", "commit": "bd095495146a2a827774ad3ad1ef0cc843b5e257" },
   "nvim-lspconfig": { "branch": "master", "commit": "ce0e625df61be77abe1340fbc9afe9ad39b31dd8" },
   "nvim-treesitter": { "branch": "master", "commit": "65ef62092ef997d2ecf68ede01a0afbda17808c3" },
+  "nvim-ts-autotag": { "branch": "main", "commit": "8515e48a277a2f4947d91004d9aa92c29fdc5e18" },
   "nvim-web-devicons": { "branch": "master", "commit": "cff25ce621e6d15fae0b0bfe38c00be50ce38468" },
   "onedarkpro.nvim": { "branch": "main", "commit": "44badbaa1c4408679adc6b6979b669540db3fb46" },
   "plenary.nvim": { "branch": "master", "commit": "55d9fe89e33efd26f532ef20223e5f9430c8b0c0" },
